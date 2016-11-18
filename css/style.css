@@ -1,0 +1,181 @@
+/*'WELCOME TO HELL!!!'*/
+body {
+    /*cursor: wait
+    ;*/
+    background-image: url("back.png");
+    background-attachment: fixed;
+    min-height: 500px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.headu {
+    color: #000
+}
+
+input[name=name] {
+    width: 35%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid gray;
+    background-color: #3CBC8D;
+    color: white;
+    font-size: 18px;
+}
+
+input[name=message] {
+    width: 65%;
+    padding: 18px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid pink;
+    background-color: #3CBC8D;
+    font-size: 17px;
+    color: white;
+}
+
+input[type=submit] {
+    color: white;
+    padding:15px 30px;
+    background:black;
+    border:0 none;
+    cursor:pointer;
+    -webkit-border-radius: 8px;
+    border-radius: 15px;
+    font-size: 15px;
+}
+
+p.message {
+    color: #1CcD8E;
+    /*padding:15px 30px;*/
+    margin: 3px 0;
+    text-indent: 30px;
+    font-size: 18px;
+}
+
+p.name {
+    /*color: #1CcD8E;*/
+    /*padding: 0px 5px;*/
+    margin: 1px 0;
+    text-indent: 5px;
+    font-size: 20px;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 3px solid gray;
+    padding: -10px;
+    text-align: left;
+}
+
+input[type=text]:focus {
+    border: 5px solid #125;
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+    position: relative;
+}
+
+form {
+    text-align: center;
+    position: relative;
+}
+
+p.ctime {
+    text-align: center;
+    margin: 7px;
+    color: #001a00;
+    font-size: 16px;
+}
+
+h1 {
+    text-align: center;
+    font-size: 75px;
+    position: relative;
+    font-family: 'Tangerine', serif;
+        /*font-size: 48px;*/
+    font-style: normal;
+    font-weight: 900;
+}
+
+.font-effect-shadow-multiple {
+    color: black;
+    text-shadow: .03em .03em 0 #6d6d6d,.07em .07em 0 #6d6d6d;
+    -webkit-text-shadow: .02em .02em 0 #6d6d6d, .07em .07em 0 #6d6d6d;
+}
+
+.form-control {
+    width: 45%;
+    /*text-indent: 30px;*/
+    margin: auto;
+}
+
+.knopka {
+    position: relative;
+}
+
+.search {
+    color: red;
+}
+
+.idel {
+    display: none;
+}
+
+.paginat {
+    text-align: center;
+    font-size: 20px;
+    margin: 3px auto;
+    color: #0BBBDE;
+}
+
+.nothing {
+    text-align: center;
+    color: #1CcD8E;
+    padding:15px 30px;
+    margin: 3px 0;
+    text-indent: 30px;
+    font-size: 25px;
+}
+
+.pre {
+    font-size: 60px;
+    color: #1CcD8E;
+}
+
+.disabled {
+    ba
+    color: #000;
+}
+
+a:hover {
+    color: #000;
+}
+
+.delete {
+    text-align: right;
+    background: none;
+    backface-visibility: none;
+    color: #6d6d6d;
+    border-bottom: 2px solid;
+}
+
+.dbutt {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor: not-allowed;
+    overflow: hidden;
+}
+
+.bull {
+    color: gray;
+}
+
